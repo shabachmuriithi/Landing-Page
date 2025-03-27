@@ -1,0 +1,463 @@
+@media only screen and (max-width:800px) {
+    body {
+      width: 90%;
+      padding: 0;
+    }
+    /*.right {
+      width: 100%;
+    }*/
+  }
+  @media only screen and (max-width:500px) {
+    body {
+      width: 90%;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    body {
+      width: 90%;
+    }
+  .body{
+    margin: 7em;
+  }
+  @font-face {
+    font-family: 'Anton';
+    src: url(font/Anton-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Bello';
+    src: url(font/FontsFree-Net-Bello-Script.ttf);
+  }
+  .logo img{
+    height: 3em; width: 3em;
+  }
+  .logo{
+    display: flex;
+    gap: 1em;
+  }
+  .logo p{
+    font-size: 1.5em;
+    color: rgb(1, 1, 59);
+    font-weight: bolder;
+    font-family: sans-serif;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  .nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 3em;
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: rgb(75, 75, 165);
+    font-weight: bold;
+  }
+  #feature a{
+    color: rgb(1, 1, 59);
+  }
+ .login a{
+    text-decoration: none;
+    color: rgb(1, 1, 59);
+    font-weight: bold;
+    margin-right: 5em;
+ }
+ .login button{
+    padding: 2em; padding-right: 4em;padding-left: 4em;
+    background-color: pink;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+ }
+ .main-sections{
+  margin-left: 10em;
+ }
+ .play-icons{
+    display: flex;
+    gap: 2.5em;
+ }
+ .appstore{
+    background-color: rgb(1, 1, 59);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3em; padding-left: 3em;
+    border: none;
+    border-radius: 2em;
+    width: 5cm; height: 1cm;
+    cursor: pointer;
+ }
+ .playstore{
+    color: navy;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3em; padding-left: 3em;
+    border: solid 1px navy;
+    border-radius: 2em;
+    height: 1cm; width: 5cm;
+    cursor: pointer;
+ }
+ .main-words{
+    font-family: 'Anton';
+    font-size: 5em;
+ }
+ .main-words span{
+    color: red;
+    text-decoration: underline;
+ }
+ .minor-words{
+    font-family: 'Poppins';
+    color: rgb(102, 102, 161);
+    font-size: 2em;
+ }
+ .minor-words a{
+    color: rgb(1, 1, 59);
+ }
+ .user img{
+    height: 6em; width: 6em;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: 0 0 15px palevioletred;
+    margin-top: 2em;
+    
+ }
+ .hr-line{
+        position: relative;
+        max-width: 40em;
+        margin: 30px auto;
+        height: 1px;
+        background-color: grey;
+}
+.paid-user img{
+    height: 20em; width: 20em;
+    background-color: palevioletred;
+    border: solid 1em palevioletred;
+    border-radius: 2em;
+    
+}
+.know-our-user{
+    display: flex;
+    gap: 25em;
+    background-color: rgb(234, 241, 241);
+    margin-bottom: 15em;
+}
+.user{
+  display: flex;
+  gap: 5em;
+}
+.profile{
+  display: flex;
+  gap: 7em;
+  font-family: 'Poppins';
+}
+.user-profile{
+  font-family: 'Poppins';
+}
+.salary{
+  display: flex;
+  gap: 7em;
+}
+.speed{
+  display: flex;
+  gap: 8em;
+}
+.user-profile{
+  background-color: white;
+  rotate: 355deg;
+}
+.user p{
+  background-color: lightblue;
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 1.5em;
+  color: blue;
+  width: 8cm;
+}
+.username h3{
+  font-weight: bold;
+  font-size: 2em;
+}
+.username p{
+  color: rgb(1, 1, 59);
+  font-size: 1.5em;
+}
+.username h4{
+  font-weight: bold;
+  
+}
+.days-worked{
+  margin-top: 4em;
+
+}
+.days-worked h4{
+  font-size: 2em;
+  font-weight: bolder;
+}
+.days-worked p{
+  color: rgb(1, 1, 59);
+  font-size: 1.5em;
+}
+.monthly-salary h3{
+  font-weight: bold;
+  font-size: 2em;
+}
+.monthly-salary p{
+  color: rgb(1, 1, 59);
+  font-size: 1.5em;
+}
+.speed{
+  background-color: rgb(171, 221, 221);
+  width: 13cm;
+  border-radius: 1em;
+  margin-top: -2em;
+}
+.speed p{
+  color: rgb(1, 1, 59);
+  font-size: 1.5em;
+}
+.speed h3{
+  font-weight: bold;
+  font-size: 2em;
+}
+.percentage{
+  border: solid 2px aqua;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 7em;
+  text-align: center;
+}
+.side-profile img{
+  height: 4em;width: 4em;
+  border-radius: 50%;
+  float: left;
+}
+.hr-lines{
+  position: relative;
+  max-width: 3em;
+  margin: 30px auto;
+  height: .5em;
+  background-color: grey;
+}
+.side-username{
+  display: flex;
+}
+.side-profile{
+  background-color: rgb(213, 230, 230);
+  margin-left: 7em;
+  padding-left: 3em;padding-right: 5em;
+  justify-content: left;
+  rotate: 15deg;
+  border-radius: 1em;
+}
+.brands img{
+  height: 6em; width: 6em;
+}
+.brands{
+  text-align: center;
+  margin-bottom: 15em;
+}
+.brands p{
+  font-size: 3em;
+  color: rgb(1, 1, 59);
+  font-family: "Poppins";
+}
+.brands span{
+  font-weight: bold;
+}
+.brand{
+  gap: 15em;
+  display: flex;
+  justify-content: center;
+}
+#microsoft{
+  color: gray;
+  font-size: 3em;
+  font-family: "Poppins";
+}
+#trello{
+  color: blue;
+  font-size: 3em;
+  font-family: 'Bello';
+}
+#dropbox{
+  color: blue;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#slack{
+  font-weight: bold;
+  font-size: 3em;
+
+}
+.equalizer img{
+  height: 2em; width: 2em;
+  margin-left: 10em;
+  
+}
+.products{
+  display: flex;
+  justify-content: center;
+  gap: 22em;
+  font-family: 'Poppins';
+  margin-bottom: 15em;
+}
+#product{
+  text-align: center;
+  color: rgb(1, 1, 59);
+  font-size: 4em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#product span{
+  color: red;
+  text-decoration: underline;
+}
+.products h3{
+  color: rgb(1, 1, 59);
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.products p{
+  color: rgb(1, 1, 59);
+  font-size: 2em;
+  text-align: center;
+}
+.star{
+  border: solid  1px palevioletred;
+  border-radius: 1em;
+ 
+}
+.star i{
+  margin-left: 6em;
+}
+.leaf i{
+  margin-left: 7em;
+}
+.statistics{
+  display: flex;
+  gap: 10em;
+}
+#our-numbers{
+  font-size: 4em;
+  color: rgb(1, 1, 59);
+  font-family: 'Anton';
+}
+#our-numbers span{
+  color: red;
+  text-decoration: underline;
+}
+#lorem{
+  font-family: 'Poppins';
+  font-size: 2em;
+  color: rgb(104, 104, 110);
+}
+.downloads h2{
+  font-size: 4em;
+  font-family: 'Poppins';
+}
+.downloads p{
+  font-size: 2em;
+  font-family: 'Poppins';
+  color: rgb(1, 1, 59);
+}
+.create img{
+  height: 5em; width: 9em;
+}
+.watch-btn button{
+  background-color: blue;
+  color: white;
+  padding: 1.5em;
+  width: 4cm;
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+}
+.create h4{
+  font-size: 2em;
+  color: rgb(1, 1, 59);
+  font-family: 'Poppins';
+}
+}
+.create p{
+  color: rgb(104, 104, 110);
+  font-size: 1.5em;
+  font-family: 'Poppins';
+}
+.create-account{
+  display: flex;
+  gap: 3em;
+}
+.seafarer button{
+  background-color: rgb(221, 108, 127);
+  color: white;
+  padding: 1.5em;
+  width: 3cm;
+  border: none;
+  border-radius: 3em;
+  font-size: 1em;
+}
+.seafarer img{
+  height: 5em; width: 10em;
+}
+.accounts{
+  display: flex;
+  gap: 15em;
+}
+.raise-hand img{
+  position: relative;
+  z-index: 1;
+}
+
+#girl{
+ margin-bottom: -5em;
+ margin-left: 25em;
+}
+.seafarer h4{
+  font-size: 2em;
+  color: rgb(1, 1, 59);
+  font-family: 'Poppins';
+}
+.seafarer p{
+  color: rgb(104, 104, 110);
+  font-size: 1.5em;
+  font-family: 'Poppins';
+}
+.circle{
+  border: solid 3px blue;
+  height: 5cm; width: 5cm;
+  border-radius: 50%;
+  margin-top: -22em;
+  z-index: 4;
+  margin-left: 1em;
+  position: absolute;
+}
+.circle1{
+  border: solid 3px blue;
+  height: 5cm; width: 5cm;
+  border-radius: 50%;
+  margin-top: -15em;
+  z-index: 4;
+  margin-left: 45em;
+  position: absolute;
+}
+.helping{
+  margin-top: 3em;
+  color: rgb(1, 1, 59);
+  font-family: 'Anton';
+  font-size: 4em;
+  text-align: center;
+}
+.helping span{
+  color: red;
+  text-decoration: underline;
+}
