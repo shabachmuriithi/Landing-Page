@@ -1,21 +1,76 @@
-@media only screen and (max-width:800px) {
-    body {
-      width: 90%;
-      padding: 0;
+
+    @media only screen and (max-width: 600px) {
+      body {
+        font-size: 5px; 
+      }
+    
+      .main-sections {
+        text-align: left;
+        flex-direction: column;
+       }
+      .user-profile{
+        flex-direction: column;
+      }
+    
+      .footer {
+        flex-direction: column; 
+        text-align: center;
+      }
+    
+      .logo-footer {
+        justify-content: center;
+      }
+      .item {
+        flex: 1 1 100%; 
+      }
+      .main-sections {
+        grid-template-columns: 1fr; 
+      }
+      img {
+        max-width: 100%; 
+        height: auto; 
+      }
     }
-    /*.right {
-      width: 100%;
-    }*/
+   @media only screen and (max-width: 768px) {
+      .header {
+        flex-direction: row; 
+        align-items: center;
+      }
+
+  .nav-links ul {
+    flex-direction: column; 
+    gap: 1em;
   }
-  @media only screen and (max-width:500px) {
-    body {
-      width: 90%;
-    }
+  .main-sections {
+    text-align: left;
+    flex-direction: column; 
   }
-  @media screen and (min-width: 480px) {
-    body {
-      width: 90%;
-    }
+
+  .products {
+    flex-direction: column; 
+   
+  }
+  .main-sections {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+}
+.main-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.body{
+    overflow-x: hidden;
+  }
   
   @font-face {
     font-family: 'Anton';
@@ -130,7 +185,7 @@
  }
  .hr-line{
         position: relative;
-        max-width: 40em;
+        max-width: 60em;
         margin: 30px auto;
         height: 1px;
         background-color: grey;
@@ -446,7 +501,9 @@
   margin-top: -15em;
   z-index: 4;
   margin-left: 45em;
-  position: absolute;
+  position: absolute;.logo-footer svg{
+    color: white;
+  }
 }
 .helping{
   margin-top: 3em;
@@ -469,8 +526,12 @@
 }
 .interface{
   display: flex;
-  gap: 15em;
+  gap: 20em;
   font-family: 'Poppins';
+  margin-left: 5em;
+  margin-top: 5em;
+  background-color: rgb(243, 237, 238);
+  padding: 2em;
 }
 .login-interface{
   display: flex;
@@ -499,7 +560,7 @@
 }
 .mobile p{
   color: rgb(155, 155, 209);
-  font-size: 1em;
+  font-size: 2em;
 }
 .mobile button{
   background-color: navy;
@@ -548,46 +609,6 @@
   font-size: 1.5em;
   font-weight: bold;
 }
-.footer{
-  display: flex;
-  margin-top: 15em;
-  gap: 15em;
-  font-family: 'Poppins';
-  color: rgb(102, 102, 161);
-  background-color: rgb(18, 18, 56);
-  color: white;
-  font-weight: bold;
-  padding-bottom: 14em;
-  width: 100%;
-  margin: 0;
-  margin-top: 10em;
-  
-}
-.logo-footer{
-  display: flex;
-  gap: 1em;
-  margin-bottom: 2em;
-}
-.footer a{
-  text-decoration: none;
-  font-size: 1.25em;
-}
-.footer li{
-  list-style-type: none;
-}
-.logo-footer svg{
-  color: white;
-}
-.copyright{
-  display: flex;
-  gap: 5em;
-  font-size: 2em;
-  font-family: 'Poppins';
-  background-color: rgb(19, 3, 3);
-  color: white;
-  width: 100%;
-  padding-bottom: 1em;
-}
 .review{
   color: rgb(1, 1, 59);
   font-family: 'Anton';
@@ -619,6 +640,8 @@
 .edwin{
   border: solid 1px palevioletred;
   width: 15cm;
+  height: 10cm;
+  padding: 2em;
   border-radius: 1em;
 }
 .testimonial{
@@ -641,4 +664,60 @@
 .download{
   display: flex;
   gap: 10em;
+  font-family: 'poppins';
+}
+#no-of-users{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2em;
+
+}
+.our-app{
+  font-size: 4em;
+  color: rgb(1, 1, 59);
+}
+.platform{
+  font-size: 2em;
+  color: rgb(1, 1, 59);
+  margin-top: 1.5em;
+}
+.footer{
+  display: flex;
+  margin-top: 15em;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  color: rgb(102, 102, 161);
+  background-color: rgb(18, 18, 56);
+  color: white;
+  font-weight: bold;
+  padding-top: 5em; padding-bottom: 5em;
+  width: 100%;
+  margin: 0;
+  margin-top: 10em;
+ 
+}
+.logo-footer{
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 1.25em;
+}
+.footer li{
+  list-style-type: none;
+  padding-bottom: 1.5em;
+  
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-family: 'Poppins';
+  background-color: rgb(19, 3, 3);
+  color: white;
+  width: 100%;
+  padding-bottom: 1em;
+  margin: 0;
 }
