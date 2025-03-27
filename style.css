@@ -16,9 +16,7 @@
     body {
       width: 90%;
     }
-  .body{
-    margin: 7em;
-  }
+  
   @font-face {
     font-family: 'Anton';
     src: url(font/Anton-Regular.ttf);
@@ -31,7 +29,7 @@
     font-family: 'Bello';
     src: url(font/FontsFree-Net-Bello-Script.ttf);
   }
-  .logo img{
+  #d-logo{
     height: 3em; width: 3em;
   }
   .logo{
@@ -315,7 +313,7 @@
   text-align: center;
   color: rgb(1, 1, 59);
   font-size: 4em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Anton';
 }
 #product span{
   color: red;
@@ -456,8 +454,191 @@
   font-family: 'Anton';
   font-size: 4em;
   text-align: center;
+  margin-bottom: 3em;
 }
 .helping span{
   color: red;
   text-decoration: underline;
+}
+#profile-photo{
+  height: 5em; width: 5em;
+  border-radius: 50%;
+  border: dotted 3px rgb(134, 82, 14);
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+.interface{
+  display: flex;
+  gap: 15em;
+  font-family: 'Poppins';
+}
+.login-interface{
+  display: flex;
+  gap: 10em;
+  rotate: 10deg;
+}
+.mobile img{
+  height: 3em; width: 3em;
+}
+#language{
+  display: flex;
+  gap: 2em;
+}
+.account-setting h3{
+  font-weight: bold;
+  color: rgb(1, 1, 59);
+  font-size: 2em;
+}
+.account-setting p{
+  font-size: 1.5em;
+  color: rgb(97, 97, 160);
+}
+.mobile h3{
+  color: hsl(1, 1, 59);
+  font-size: 2em;
+}
+.mobile p{
+  color: rgb(155, 155, 209);
+  font-size: 1em;
+}
+.mobile button{
+  background-color: navy;
+  color: white;
+  padding: 1.5em;
+  width: 3cm;
+  border: none;
+  border-radius: 1em;
+  font-size: 1em;
+}
+.new-friends p{
+  color: rgb(1, 1, 59);
+  font-size: 1em;
+}
+#login-btn{
+  background-color: white;
+  color: black;
+  padding: 1.5em;
+  width: 4cm;
+  border: black 1px solid;
+  border-radius: 1em;
+  font-size: 1em;
+  margin-bottom: .5em;
+}
+#signup-btn{
+  background-color: pink;
+  color: white;
+  padding: 1.5em;
+  width: 4cm;
+  border: none;
+  border-radius: 1em;
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+.icons-bell{
+  display: flex;
+  gap: 10em;
+  
+}
+#designer{
+  color: rgb(82, 82, 104);
+  font-size: 1em;
+}
+.name{
+  color: rgb(1, 1, 59);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.footer{
+  display: flex;
+  margin-top: 15em;
+  gap: 15em;
+  font-family: 'Poppins';
+  color: rgb(102, 102, 161);
+  background-color: rgb(18, 18, 56);
+  color: white;
+  font-weight: bold;
+  padding-bottom: 14em;
+  width: 100%;
+  margin: 0;
+  margin-top: 10em;
+  
+}
+.logo-footer{
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 1.25em;
+}
+.footer li{
+  list-style-type: none;
+}
+.logo-footer svg{
+  color: white;
+}
+.copyright{
+  display: flex;
+  gap: 5em;
+  font-size: 2em;
+  font-family: 'Poppins';
+  background-color: rgb(19, 3, 3);
+  color: white;
+  width: 100%;
+  padding-bottom: 1em;
+}
+.review{
+  color: rgb(1, 1, 59);
+  font-family: 'Anton';
+  font-size: 4em;
+  text-align: center;
+  margin-top: 2em;
+}
+.review span{
+  color: red;
+  text-decoration: underline;
+}
+.user-img img{
+  height: 6em; width: 6em;
+  border-radius: 50%;
+}
+.user-img{
+  display: flex;
+  gap: 20em;
+}
+.edwin h3{
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(1, 1, 59);
+}
+.edwin p{
+  color: rgb(58, 58, 80);
+  font-size: 1.5em;
+}
+.edwin{
+  border: solid 1px palevioletred;
+  width: 15cm;
+  border-radius: 1em;
+}
+.testimonial{
+  font-family: 'Poppins';
+}
+.jecson h3{
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(1, 1, 59);
+}
+.jecson p{
+  color: rgb(58, 58, 80);
+  font-size: 1.5em;
+}
+.testimonial{
+  display: flex;
+  gap: 18em;
+  margin-bottom: 10em;
+}
+.download{
+  display: flex;
+  gap: 10em;
 }
